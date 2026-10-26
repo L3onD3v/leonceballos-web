@@ -1,6 +1,6 @@
 services:
   web:
-    image: mi-web:2
+    build: .
     restart: unless-stopped
   caddy:
     image: caddy:2
